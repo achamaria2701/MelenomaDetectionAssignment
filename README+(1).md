@@ -18,14 +18,11 @@
     - Seborrheic keratosis
     - Squamous cell carcinoma
     - Vascular lesion
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
 ## Conclusions
 - Model without dropout and regularization is clearly overfitting with 80% train accuracy and 42% validation accuracy
 - With the addition of L2 regularization the training accuracy drops to 63% while validation accuracy improves to 50%
 - Addition of dropout layers after Conv and dense layer reduced the training and validation accuracy to 30% and 36% respectively
-- Conclusion 4 from the analysis
+- Class imbalance can significantly reduce the performance of model. Using Augmentor to improve balance between classes
 
 
 ## Technologies Used
